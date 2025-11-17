@@ -48,7 +48,7 @@ This new approach allows us to create **StepAudio-R1**, which:
 * Transforms extended deliberation from a liability into a **powerful asset** for audio intelligence.
 
 <p align="center">
-    <img src="assets/combined_benchmark.pdf" width="80%"/>
+    <img src="assets/Benchmark.png" width="80%"/>
 <p>
 
 ### Model Architecture
