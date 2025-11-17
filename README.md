@@ -24,8 +24,8 @@ Chain-of-Thought (CoT) reasoning has transformed AI, enabling models to solve co
 
 Our answer is **No**. Through systematic analysis, we found the root cause: models aren't reasoning about *audio*; they're reasoning about *text transcripts*.
 
-* **The Problem: Textual Surrogate Reasoning.** When asked why music sounds "melancholic," models reason about "lyrics mentioning sadness" (text) instead of "minor key progressions and descending melodic contours" (audio).
-* **The Cause:** These models inherit text-based reasoning from their initialization, creating a fundamental **modality mismatch**.
+* The Problem: Textual Surrogate Reasoning. When asked why music sounds "melancholic," models reason about "lyrics mentioning sadness" (text) instead of "minor key progressions and descending melodic contours" (audio).
+* The Cause: These models inherit text-based reasoning from their initialization, creating a fundamental modality mismatch.
 
 To solve this, we introduce **Modality-Grounded Reasoning Distillation (MGRD)**, an iterative training framework that shifts the model's reasoning from textual abstractions to acoustic properties.
 
@@ -35,7 +35,7 @@ This new approach allows us to create **StepAudio-R1**, which:
 * Transforms extended deliberation from a liability into a **powerful asset** for audio intelligence.
 
 <p align="center">
-    <img src="assets/comvined_benchmark.pdf" width="80%"/>
+    <img src="assets/combined_benchmark.pdf" width="80%"/>
 <p>
 
 ### Model Architecture
@@ -53,7 +53,7 @@ StepAudio-R1 builds on the architecture of our previous StepAudio 2 and consists
 The key innovation is our training method, **Modality-Grounded Reasoning Distillation (MGRD)**. This process iteratively refines the model's thoughts, progressively strengthening their connection to the underlying audio features until they evolve into **"native audio think."**
 
 <p align="center">
-    <img src="assets/MGRO.png" width="80%"/>
+    <img src="assets/MGRD.png" width="80%"/>
 <p>
 
 This ensures the model's reasoning is not merely about the transcribed text but is deeply grounded in the **acoustic nuances** of the audio itself.
