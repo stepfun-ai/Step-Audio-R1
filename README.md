@@ -19,13 +19,13 @@
 ## Overview
 ### Introduction
 
-StepAudio-R1 is the **first audio language model to successfully unlock Chain-of-Thought (CoT) reasoning**. It decisively solves the "inverted scaling" problem that plagues existing models, where performance *degrades* with longer reasoning. StepAudio-R1 is the first model to demonstrate that for audio, like text and vision, allocating more compute at test-time *predictably improves* performance.
+Step-Audio-R1 is the **first audio language model to successfully unlock Chain-of-Thought (CoT) reasoning**. It decisively solves the "inverted scaling" problem that plagues existing models, where performance *degrades* with longer reasoning. Step-Audio-R1 is the first model to demonstrate that for audio, like text and vision, allocating more compute at test-time *predictably improves* performance.
 
 We found the root cause of this anomaly: models were engaging in **textual surrogate reasoning** (analyzing transcripts, not audio) due to a modality mismatch. We solve this with a new training framework, **Modality-Grounded Reasoning Distillation (MGRD)**, that teaches the model "native audio think."
 
 Key features:
 
-* **State-of-the-Art Reasoning:** The first audio model that truly benefits from step-by-step deliberation. StepAudio-R1 **surpasses Gemini 2.5 Pro** across comprehensive audio benchmarks.
+* **State-of-the-Art Reasoning:** The first audio model that truly benefits from step-by-step deliberation. Step-Audio-R1 **surpasses Gemini 2.5 Pro** across comprehensive audio benchmarks.
 * **Solves Inverted Scaling:** We reverse the audio anomaly. Longer, more deliberate reasoning chains now lead to *better* answers, transforming deliberation from a liability into a powerful asset.
 * **Novel MGRD Framework:** We introduce **Modality-Grounded Reasoning Distillation**, an iterative self-distillation method that progressively shifts the model's reasoning from textual abstractions (e.g., "sad lyrics") to acoustic properties (e.g., "minor key progressions").
 * **Powerful & Efficient Architecture:** Built on a frozen **Qwen2 audio encoder** and a **Qwen2.5 32B LLM decoder**, our architecture is optimized for deep audio reasoning.
@@ -46,7 +46,7 @@ Our answer is **No**. Through systematic analysis, we found the root cause: mode
 
 To solve this, we introduce **Modality-Grounded Reasoning Distillation (MGRD)**, an iterative training framework that shifts the model's reasoning from textual abstractions to acoustic properties.
 
-This new approach allows us to create **StepAudio-R1**, which:
+This new approach allows us to create **Step-Audio-R1**, which:
 * Is the **first audio reasoning model** that successfully benefits from test-time compute scaling.
 * **Surpasses Gemini 2.5 Pro** across comprehensive audio benchmarks.
 * Transforms extended deliberation from a liability into a **powerful asset** for audio intelligence.
@@ -56,11 +56,11 @@ This new approach allows us to create **StepAudio-R1**, which:
 <p>
 
 ### Introduction
-StepAudio-R1 is the **first audio language model to successfully unlock Chain-of-Thought (CoT) reasoning**. It decisively solves the "inverted scaling" problem that plagues existing models, where performance *degrades* with longer reasoning. StepAudio-R1 is the first model to demonstrate that for audio, like text and vision, allocating more compute at test-time *predictably improves* performance.
+Step-Audio-R1 is the **first audio language model to successfully unlock Chain-of-Thought (CoT) reasoning**. It decisively solves the "inverted scaling" problem that plagues existing models, where performance *degrades* with longer reasoning. Step-Audio-R1 is the first model to demonstrate that for audio, like text and vision, allocating more compute at test-time *predictably improves* performance.
 
 We found the root cause of this anomaly: models were engaging in **textual surrogate reasoning** (analyzing transcripts, not audio) due to a modality mismatch. To solve this, we introduce **Modality-Grounded Reasoning Distillation (MGRD)**, an iterative training framework that shifts the model's reasoning from textual abstractions to acoustic properties.
 
-This new approach allows us to create **StepAudio-R1**, which:
+This new approach allows us to create **Step-Audio-R1**, which:
 * Is the **first audio reasoning model** that successfully benefits from test-time compute scaling.
 * **Surpasses Gemini 2.5 Pro** across comprehensive audio benchmarks.
 * Transforms extended deliberation from a liability into a **powerful asset** for audio intelligence.
@@ -76,7 +76,7 @@ This new approach allows us to create **StepAudio-R1**, which:
     <img src="assets/overview.png" width="80%"/>
 <p>
 
-StepAudio-R1 builds on the architecture of our previous StepAudio 2 and consists of three main components:
+Step-Audio-R1 builds on the architecture of our previous StepAudio 2 and consists of three main components:
 
 1.  **Audio Encoder:** We use the pre-trained **Qwen2 audio encoder**. It operates at a 25 Hz frame rate and is frozen during training.
 2.  **Audio Adaptor:** A simple adaptor (identical to Step-Audio 2) connects the encoder to the LLM and downsamples the feature frame rate to 12.5 Hz.
