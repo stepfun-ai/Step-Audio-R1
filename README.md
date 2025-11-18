@@ -73,7 +73,7 @@ This new approach allows us to create **StepAudio-R1**, which:
 ### Model Architecture
 
 <p align="center">
-    <img src="assets/overview.png" width="80%"/>
+    <img src="assets/overview.jpg" width="80%"/>
 <p>
 
 StepAudio-R1 builds on the architecture of our previous StepAudio 2 and consists of three main components:
