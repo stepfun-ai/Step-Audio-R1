@@ -16,6 +16,11 @@
 * Nov 19, 2025: ✨ [Demo Page](https://stepaudiollm.github.io/step-audio-r1/) ; 🎮  [HF Space Playground](https://huggingface.co/spaces/stepfun-ai/Step-Audio-R1)
 * Nov 19, 2025: 👋 We release the technical report of [Step-Audio-R1]().
 
+## 📑 Open-source Plan
+- [ ] Inference Code (vLLM)
+- [ ] Online demo (Gradio)
+- [ ] Model Checkpoints
+
 ## Overview
 
 ### Introduction
@@ -53,58 +58,8 @@ The key innovation is our training method, **Modality-Grounded Reasoning Distill
 
 This ensures the model's reasoning is not merely about the transcribed text but is deeply grounded in the **acoustic nuances** of the audio itself.
 
-### Cookbooks for Usage Cases
-
-## QuickStart
-
-### Model Description and Download
-
-### Transformers Usage
-
-#### Installation
-
-#### Code Snippet
-
-### vLLM Usage
-
-### Usage Tips (Recommended Reading)
-
-#### Minimum GPU memory requirements
-
-#### Best Practices for the Thinking Model
-
-## Interaction with Qwen3-Omni
-
-### Online Demo
-
-### Real-Time Interaction
-
-Real-time streaming interaction with Step-Audio-R1 is available now. Please visit [Step-Audio-R1 Chat](https) and select the XXX call option in the chat box to experience it.
-
-### Launch Local Web UI Demo
-
-#### Installation
-
-#### Running the Demo
-
-## 🐳 Docker
-
-## Evaluation
-
-### Performance of Step-Audio-R1
-
 ## Citation
 
 If you find our paper and code useful in your research, please consider giving a star :star: and citation :pencil: :)
-
-
-```BibTeX
-@article{,
-  title={},
-  author={},
-  journal={},
-  year={2025}
-}
-```
 
 <br>
