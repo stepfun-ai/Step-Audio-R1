@@ -5,7 +5,7 @@
 
 <div align="center">
     <a href="https://stepaudiollm.github.io/step-audio-r1/"><img src="https://img.shields.io/static/v1?label=Demo%20Page&message=Web&color=green"></a> &ensp;
-  <a href="assets/Step-Audio-R1.pdf"><img src="https://img.shields.io/static/v1?label=Tech%20Report&message=Arxiv&color=red"></a> &ensp;
+  <a href="Step-Audio-R1.pdf"><img src="https://img.shields.io/static/v1?label=Tech%20Report&message=Arxiv&color=red"></a> &ensp;
   <a href="https://huggingface.co/stepfun-ai/Step-Audio-R1"><img src="https://img.shields.io/static/v1?label=Step-Audio-R1&message=HuggingFace&color=yellow"></a> &ensp;
     <a href="https://modelscope.cn/models/stepfun-ai/Step-Audio-R1"><img src="https://img.shields.io/static/v1?label=Step-Audio-R1&message=ModelScope&color=blue"></a> &ensp;
   <a href="https://huggingface.co/spaces/stepfun-ai/Step-Audio-R1"><img src="https://img.shields.io/static/v1?label=Space%20Playground&message=HuggingFace&color=yellow"></a> &ensp;
@@ -13,7 +13,7 @@
 
 ## 🔥🔥🔥 News!!
 * Nov 19, 2025: 🎉 We release **Step-Audio-R1**, including the [Demo Page](https://stepaudiollm.github.io/step-audio-r1/) and model weights ([HuggingFace](https://huggingface.co/stepfun-ai/Step-Audio-R1)).
-* Nov 19, 2025: 👋 We release the technical report of [Step-Audio-R1](assets/Step-Audio-R1.pdf).
+* Nov 19, 2025: 👋 We release the technical report of [Step-Audio-R1](Step-Audio-R1.pdf).
 
 ## 📑 Open-source Plan
 - [ ] Inference Code (vLLM)
