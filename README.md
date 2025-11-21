@@ -12,7 +12,7 @@
 </div>
 
 ## 🔥🔥🔥 News!!
-* Nov 19, 2025: 🎉 We release **Step-Audio-R1**, including the [Demo Page](https://stepaudiollm.github.io/step-audio-r1/) and model weights ([HuggingFace](https://huggingface.co/stepfun-ai/Step-Audio-R1)).
+* Nov 19, 2025: 🎉 We release the [Demo Page](https://stepaudiollm.github.io/step-audio-r1/) 
 * Nov 19, 2025: 👋 We release the technical report of [Step-Audio-R1](Step-Audio-R1.pdf).
 
 ## 📑 Open-source Plan
