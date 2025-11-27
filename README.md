@@ -35,7 +35,7 @@ This new approach allows us to create **Step-Audio-R1**, which:
 * Transforms extended deliberation from a liability into a **powerful asset** for audio intelligence.
 
 <p align="center">
-    <img src="assets/Benchmark.jpg" width="80%"/>
+    <img src="assets/Benchmark.png" width="80%"/>
 <p>
 
 
