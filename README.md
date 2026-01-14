@@ -12,7 +12,7 @@
 </div>
 
 ## 🔥🔥🔥 News!!
-* Jan 1, 2026: 🚀 We release the inference code and model weights of **Step-Audio-R1.1** ([HuggingFace](https://huggingface.co/stepfun-ai/Step-Audio-R1.1))
+* Jan 14, 2026: 🚀 We release the inference code and model weights of **Step-Audio-R1.1** ([HuggingFace](https://huggingface.co/stepfun-ai/Step-Audio-R1.1))
 * Nov 27, 2025: 🎉 We release the inference code and model weights of **Step-Audio-R1** ([HuggingFace](https://huggingface.co/stepfun-ai/Step-Audio-R1); [ModelScope](https://modelscope.cn/models/stepfun-ai/Step-Audio-R1))
 * Nov 27, 2025: 🎮 We released the [HF Space Playground](https://www.stepfun.com/studio/audio?tab=conversation)
 * Nov 19, 2025: 🎉 We release the [Demo Page](https://stepaudiollm.github.io/step-audio-r1/) 
