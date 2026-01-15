@@ -6,8 +6,8 @@
 <div align="center">
     <a href="https://modelscope.cn/studios/stepfun-ai/Step-Audio-R1"><img src="https://img.shields.io/static/v1?label=Demo%20Page&message=Web&color=green"></a> &ensp;
   <a href="https://arxiv.org/pdf/2511.15848"><img src="https://img.shields.io/static/v1?label=Tech%20Report&message=Arxiv&color=red"></a> &ensp;
-  <a href="https://huggingface.co/stepfun-ai/Step-Audio-R1"><img src="https://img.shields.io/static/v1?label=Step-Audio-R1&message=HuggingFace&color=yellow"></a> &ensp;
-    <a href="https://modelscope.cn/models/stepfun-ai/Step-Audio-R1.1"><img src="https://img.shields.io/static/v1?label=Step-Audio-R1&message=ModelScope&color=blue"></a> &ensp;
+  <a href="https://huggingface.co/stepfun-ai/Step-Audio-R1"><img src="https://img.shields.io/static/v1?label=Step-Audio-R1.1&message=HuggingFace&color=yellow"></a> &ensp;
+    <a href="https://modelscope.cn/models/stepfun-ai/Step-Audio-R1.1"><img src="https://img.shields.io/static/v1?label=Step-Audio-R1.1&message=ModelScope&color=blue"></a> &ensp;
   <a href="https://www.stepfun.com/studio/audio?tab=conversation"><img src="https://img.shields.io/static/v1?label=Space%20Playground&message=Studio&color=yellow"></a> &ensp;
 </div>
 
