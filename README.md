@@ -31,7 +31,7 @@ Step-Audio R1.1 (Realtime) is a major upgrade to Step-Audio-R1, designed for int
 Unlike conventional streaming speech models that trade intelligence for latency, R1.1 enables *thinking while speaking*, achieving high intelligence without sacrificing speed.
 
 ### Mind-Paced Speaking (Low Latency)
-Based on the research [*Mind-Paced Speaking*](MPS.pdf), the Realtime variant adopts a **Dual-Brain Architecture**:
+Based on the research [*Mind-Paced Speaking*](https://arxiv.org/pdf/2510.09592), the Realtime variant adopts a **Dual-Brain Architecture**:
 - A **Formulation Brain** responsible for high-level reasoning
 - An **Articulation Brain** dedicated to speech generation
 
