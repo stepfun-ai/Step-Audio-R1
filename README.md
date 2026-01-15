@@ -38,9 +38,9 @@ Based on the research [*Mind-Paced Speaking*](MPS.pdf), the Realtime variant ado
 This decoupling allows the model to perform **Chain-of-Thought reasoning during speech output**, maintaining ultra-low latency while handling complex tasks in real time.
 
 ### Acoustic-Grounded Reasoning (High Intelligence)
-To address the *inverted scaling* issue—where reasoning over transcripts can degrade performance—Step-Audio R1.1 grounds its reasoning directly in **acoustic representations** rather than text alone.
+To address the *inverted scaling* issue—where reasoning over transcripts can degrade performance—Step-Audio R1.1 grounds its reasoning directly in acoustic representations rather than text alone.
 
-Through **iterative self-distillation**, extended deliberation becomes a strength instead of a liability. This enables effective test-time compute scaling and leads to **state-of-the-art performance**, including top-ranking results on the AA benchmark.
+Through iterative self-distillation, extended deliberation becomes a strength instead of a liability. This enables effective test-time compute scaling and leads to **state-of-the-art performance**, including top-ranking results on the AA benchmark.
 
 <div align="center">
   <img src="assets/AA_reasoning.png" width="100%"/>
