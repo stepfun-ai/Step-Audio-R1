@@ -18,6 +18,9 @@
 * Nov 19, 2025: 🎉 We release the [Demo Page](https://modelscope.cn/studios/stepfun-ai/Step-Audio-R1)
 * Nov 19, 2025: 👋 We release the technical report of [Step-Audio-R1](Step-Audio-R1.pdf).
 
+<img src="assets/QRCode.jpeg"  height=300>
+WeChat Developer Group
+
 ## 📑 Open-source Plan
 - [x] Inference Code (vLLM)
 - [x] Online demo (Gradio)
